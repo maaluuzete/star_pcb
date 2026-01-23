@@ -12,8 +12,8 @@ The NE555 is configured as an astable oscillator, meaning it continuously genera
   - R1 (1 kΩ);
   - RV1 (50 kΩ potentiometer);
   - C1/C2 (timing capacitors).
-
 By turning the potentiometer, you can make the LEDs chase faster or slower. The output of the 555 goes directly to the clock inputs of the CD4017s.
+
 ---
 
 ### CD4017 Decade Counters
