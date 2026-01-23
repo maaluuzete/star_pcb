@@ -1,4 +1,7 @@
 # LED Star Chaser
+
+![EDA](https://img.shields.io/badge/EDA-KiCad-blue)
+
 This is a small and fun electronics project:  
 a star-shaped LED chaser built using a classic NE555 timer and two CD4017 decade counters.
 The idea was to mix simple logic, old-school components, and a creative PCB shape into something that’s both educational and nice to look at. It’s not meant to be complicated, just satisfying to build and fun to watch!.
@@ -15,8 +18,6 @@ The NE555 is configured as an astable oscillator, meaning it continuously genera
     
 By turning the potentiometer, you can make the LEDs chase faster or slower. The output of the 555 goes directly to the clock inputs of the CD4017s.
 
----
-
 ### CD4017 Decade Counters
 
 Two **CD4017** ICs handle the LED sequencing.
@@ -26,7 +27,12 @@ Two **CD4017** ICs handle the LED sequencing.
 This creates the classic running-light!
 
 ---
+## Project Preview
+![Star PCB](images/star_pcb.png)
+![Star 3D](images/star_3d.png)
+![Star Schematic](images/star_schematic.png)
 
+---
 ## Project Structure
 
 ```
